@@ -1,26 +1,4 @@
 {
-  "context-menu": {
-    ".CodeMirror": [
-      {
-        "label": "Toggle todo-toggle",
-        "command": "todo-toggle:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Plugins",
-      "submenu": [
-        {
-          "label": "todo-toggle",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "todo-toggle:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "context-menu": {},
+  "menu": {}
 }
