@@ -1,5 +1,5 @@
 {
-  "body": {
-    "ctrl-enter": "todo-toggle:toggle"
+  ".CodeMirror textarea": {
+    "ctrl-enter": "todo-toggle:done"
   }
 }
