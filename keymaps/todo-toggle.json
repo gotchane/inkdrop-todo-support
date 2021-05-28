@@ -1,5 +1,5 @@
 {
   "body": {
-    "ctrl-alt-d": "todo-toggle:toggle"
+    "ctrl-enter": "todo-toggle:toggle"
   }
 }
