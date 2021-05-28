@@ -1,0 +1,19 @@
+{
+  "name": "todo-toggle",
+  "main": "./lib/todo-toggle",
+  "version": "0.1.0",
+  "description": "Toggling markdown todo list.",
+  "keywords": [
+    "inkdrop",
+    "markdown",
+    "todo",
+    "list",
+    "toggle"
+  ],
+  "repository": "https://github.com/gotchane/inkdrop-todo-toggle",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.x"
+  },
+  "dependencies": {}
+}
