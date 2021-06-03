@@ -1,16 +1,17 @@
 {
-  "name": "todo-toggle",
-  "main": "./lib/todo-toggle",
+  "name": "todo-support",
+  "main": "./lib/todo-support",
   "version": "0.1.0",
-  "description": "Toggling markdown todo list.",
+  "description": "Supporting to use markdown todo list.",
   "keywords": [
     "inkdrop",
     "markdown",
     "todo",
     "list",
-    "toggle"
+    "toggle",
+    "support"
   ],
-  "repository": "https://github.com/gotchane/inkdrop-todo-toggle",
+  "repository": "https://github.com/gotchane/inkdrop-todo-support",
   "license": "MIT",
   "engines": {
     "inkdrop": "^5.x"

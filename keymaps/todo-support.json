@@ -1,0 +1,5 @@
+{
+  ".CodeMirror textarea": {
+    "ctrl-enter": "todo-support:mark"
+  }
+}
