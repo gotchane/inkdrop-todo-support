@@ -1,8 +1,8 @@
-# Todo Toggle plugin for Inkdrop
+# Todo Support plugin for Inkdrop
 
 ![](./media/demo.gif)
 
-This plugin helps to toggle todo list of markdown.
+This plugin supports to use todo list of Markdown.
 
 ## Install
 

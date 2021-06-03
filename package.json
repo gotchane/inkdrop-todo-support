@@ -2,7 +2,7 @@
   "name": "todo-support",
   "main": "./lib/todo-support",
   "version": "0.1.0",
-  "description": "Supporting to use markdown todo list.",
+  "description": "Support to use Markdown todo list.",
   "keywords": [
     "inkdrop",
     "markdown",
