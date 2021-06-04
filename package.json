@@ -2,7 +2,7 @@
   "name": "todo-support",
   "main": "./lib/todo-support",
   "version": "0.2.0",
-  "description": "Support to use Markdown todo list.",
+  "description": "Add a keyboard shortcut for toggling todo list item for the current cursor line",
   "keywords": [
     "inkdrop",
     "markdown",

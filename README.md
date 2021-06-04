@@ -1,8 +1,8 @@
-# Todo Support plugin for Inkdrop
+# Todo Support Plugin for Inkdrop
 
 ![](./media/demo.gif)
 
-This plugin supports to use todo list of Markdown.
+This plugin supports to add a keyboard shortcut for toggling todo list item for the current cursor line.
 
 ## Install
 
