@@ -7,6 +7,8 @@
   spacing. `* [ ] foo` becomes `* [x] foo` (previously `- [x] foo`), and
   `-   [ ]   foo` becomes `-   [x]   foo` (previously `- [x] foo`).
 * Fixed a crash on deactivation when no editor had ever been loaded.
+* Removed the empty `menus/todo-support.json`, which prevented the plugin from
+  activating on v6 (`MenuManager` requires `menu` to be an array).
 * Added tests.
 ## 0.2.1
 * Update detail description

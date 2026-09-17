@@ -27,6 +27,12 @@ Runtime dependencies stay at zero.
 That is what preserves the bullet, the whitespace and the cursor position, and it is
 asserted directly in `test/toggle-todo-at-cursor.test.js`.
 
+**No `menus/` or `styles/` resource files.** Both were empty stubs and both are now
+deleted. `menus/*.json` with `"menu": {}` crashes v6 at activation — `MenuManager.add()`
+does `for (const item of structuredClone(items))`, so `menu` must be an *array*; v5
+tolerated the object. LESS is deprecated in v6. If a menu entry is ever wanted, write
+`"menu": []` with real items and test activation in the app.
+
 **Do not reintroduce a multi-rule replace loop.** The v5 code looped two regex rules with
 `return` inside a `forEach` — which never breaks — so both rules always ran, and it only
 worked because the line text was never reassigned. A single regex replaces it, and the
