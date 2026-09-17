@@ -14,7 +14,24 @@
   "repository": "https://github.com/gotchane/inkdrop-todo-support",
   "license": "MIT",
   "engines": {
-    "inkdrop": "^5.x"
+    "inkdrop": "^6.x"
   },
-  "dependencies": {}
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "lib",
+    "keymaps",
+    "menus",
+    "media",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@codemirror/state": "^6.5.2",
+    "vitest": "^3.2.4"
+  }
 }

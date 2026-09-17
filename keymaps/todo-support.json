@@ -1,5 +1,5 @@
 {
-  ".CodeMirror textarea": {
+  ".cm-editor .cm-scroller": {
     "ctrl-enter": "todo-support:mark"
   }
 }
